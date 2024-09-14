@@ -1,0 +1,79 @@
+.aHero {
+  width: 100%;
+  height: 656px;
+  background-image: url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.aHero:after {
+  background: linear-gradient(
+    to bottom,
+    rgba(39, 43, 31, 0) 0%,
+    rgba(39, 43, 31, 1) 100%
+  );
+  height: 40%;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.sec {
+  width: 100%;
+  height: 2250px;
+  background-color: #272b1f;
+}
+.sec:after {
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 23, 2, 0) 0%,
+    rgba(15, 23, 2, 1) 100%
+  );
+  height: 20%;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 2820px;
+  position: absolute;
+}
+.lorem {
+  color: white;
+  font-size: 40px;
+  margin-top: 655px;
+  width: 900px;
+  text-align: center;
+  margin-left: 330px;
+  padding-top: 100px;
+}
+.suc {
+  width: 900px;
+  height: 1000px;
+  background-image: url(../images/suc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 80px;
+}
+.sucText {
+  color: white;
+  margin-top: 1100px;
+  margin-left: 330px;
+  font-size: 15px;
+}
+.lorem2 {
+  color: white;
+  font-size: 25px;
+  width: 500px;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 530px;
+}
+.foots {
+  width: 100%;
+  height: 70px;
+  background-color: #0f1702;
+  position: absolute;
+}
