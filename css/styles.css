@@ -260,24 +260,30 @@ nav a {
   color: white;
   font-size: 20px;
   margin-left: 1310px;
+  position: absolute;
 }
 
 .about2 {
   color: white;
   font-size: 20px;
-  margin-left: 40px;
+  margin-left: 1400px;
+  position: absolute;
 }
 
 .products2 {
   color: white;
   font-size: 20px;
   margin-left: 1300px;
+  position: absolute;
+  margin-top: 10px;
 }
 
 .contact2 {
   color: white;
   font-size: 20px;
-  margin-left: 24px;
+  margin-left: 1400px;
+  position: absolute;
+  margin-top: 10px;
 }
 
 .aHero {
@@ -357,5 +363,364 @@ nav a {
   width: 100%;
   height: 70px;
   background-color: #0f1702;
+  position: absolute;
+}
+
+.pHero {
+  width: 100%;
+  height: 656px;
+  background-image: url(../images/shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.pHero:after {
+  background: linear-gradient(to bottom, rgba(26, 33, 32, 0) 0%, rgb(26, 33, 32) 100%);
+  height: 20%;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 525px;
+  position: absolute;
+}
+
+.space {
+  width: 100%;
+  height: 1700px;
+  background-color: #1a2120;
+}
+
+.img11 {
+  width: 270px;
+  height: 300px;
+  background-image: url(../images/plant1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 700px;
+  background-position: center;
+  border-radius: 5%;
+  float: left;
+  margin-left: 90px;
+}
+
+.img22 {
+  width: 270px;
+  height: 300px;
+  background-image: url(../images/plant2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 700px;
+  background-position: center;
+  border-radius: 5%;
+  float: left;
+  margin-left: 440px;
+}
+
+.img33 {
+  width: 270px;
+  height: 300px;
+  background-image: url(../images/plant3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 700px;
+  background-position: center;
+  border-radius: 5%;
+  float: left;
+  margin-left: 790px;
+}
+
+.img4 {
+  width: 270px;
+  height: 300px;
+  background-image: url(../images/plant4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 700px;
+  background-position: center;
+  border-radius: 5%;
+  float: left;
+  margin-left: 1140px;
+}
+
+.img5 {
+  width: 270px;
+  height: 300px;
+  background-image: url(../images/plant5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 1200px;
+  background-position: center;
+  border-radius: 5%;
+  float: left;
+  margin-left: 90px;
+}
+
+.img6 {
+  width: 270px;
+  height: 300px;
+  background-image: url(../images/plant6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 1200px;
+  background-position: center;
+  border-radius: 5%;
+  float: left;
+  margin-left: 440px;
+}
+
+.img7 {
+  width: 270px;
+  height: 300px;
+  background-image: url(../images/plant7.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 1200px;
+  background-position: center;
+  border-radius: 5%;
+  float: left;
+  margin-left: 790px;
+}
+
+.img8 {
+  width: 270px;
+  height: 300px;
+  background-image: url(../images/plant8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 1200px;
+  background-position: center;
+  border-radius: 5%;
+  float: left;
+  margin-left: 1140px;
+}
+
+.text1 {
+  color: white;
+  margin-top: 1020px;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 125px;
+}
+
+.text2 {
+  color: white;
+  margin-top: 1020px;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 495px;
+}
+
+.text3 {
+  color: white;
+  margin-top: 1020px;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 845px;
+}
+
+.text4 {
+  color: white;
+  margin-top: 1020px;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 1215px;
+}
+
+.text5 {
+  color: white;
+  margin-top: 1520px;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 165px;
+}
+
+.text6 {
+  color: white;
+  margin-top: 1520px;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 555px;
+}
+
+.text7 {
+  color: white;
+  margin-top: 1520px;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 815px;
+}
+
+.text8 {
+  color: white;
+  margin-top: 1520px;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 1230px;
+}
+
+.space:after {
+  background: linear-gradient(to bottom, rgba(15, 23, 2, 0) 0%, rgb(15, 23, 2) 100%);
+  height: 20%;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 1620px;
+  position: absolute;
+}
+
+.cHero {
+  width: 100%;
+  height: 656px;
+  background-image: url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.cHero:after {
+  background: linear-gradient(to bottom, rgba(94, 107, 86, 0) 0%, rgb(94, 107, 86) 100%);
+  height: 20%;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 525px;
+  position: absolute;
+}
+
+.infoSec {
+  background-color: #5e6b56;
+  width: 100%;
+  height: 1620px;
+}
+
+.nameText {
+  margin-top: 800px;
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  margin-left: 400px;
+}
+
+.firstName {
+  margin-top: 850px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  margin-left: 400px;
+}
+
+.lastName {
+  margin-top: 850px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  margin-left: 800px;
+}
+
+.oneBox {
+  margin-top: 890px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  height: 50px;
+  margin-left: 400px;
+  background-color: #bf8352;
+  border: white;
+  border-radius: 20%;
+}
+
+.twoBox {
+  margin-top: 890px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  margin-left: 800px;
+  height: 50px;
+  background-color: #bf8352;
+  border: white;
+  border-radius: 20%;
+}
+
+.email {
+  margin-top: 990px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  margin-left: 400px;
+}
+
+.emailBox {
+  margin-top: 1030px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  height: 50px;
+  margin-left: 400px;
+  width: 710px;
+  background-color: #bf8352;
+  border: white;
+  border-radius: 20%;
+}
+
+.message {
+  margin-top: 1130px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  margin-left: 400px;
+}
+
+.mesBox {
+  margin-top: 1170px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  height: 300px;
+  margin-left: 400px;
+  width: 710px;
+  background-color: #bf8352;
+  border: white;
+  border-radius: 20%;
+}
+
+.send {
+  width: 160px;
+  height: 70px;
+  position: absolute;
+  margin-top: 1520px;
+  font-size: 30px;
+  margin-left: 680px;
+  border-radius: 20%;
+  border: white;
+}
+
+.infoSec:after {
+  background: linear-gradient(to bottom, rgba(15, 23, 2, 0) 0%, rgb(15, 23, 2) 100%);
+  height: 20%;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 1530px;
   position: absolute;
 }
